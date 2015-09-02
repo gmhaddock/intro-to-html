@@ -1,0 +1,75 @@
+Hello all,
+ 
+ We are about to head out on a journey to learn the secret art of web development. Well... it isn't that secret, but that makes the journey sound more mysterious. However, let's get started with the real fun... Creating a static web page that will turn into our portfolio so others can check out how awesome we are.
+
+ We will complete this in phases...
+
+ Phase 1: Setting up our project structure
+ 	- Create a file in your root directory called "index.html"
+ 		*This will serve as our home page. You could call it whatever you want, but index.html is used a great deal so we will stick with that.
+ 	- Create two additional files called "contact.html" and "about.html"
+ 		* These two pages will be linked from our homepage to provide additional information
+ 		* We do not want to stick everything in one page because that can lead to a cluttered interface which is offputting to users.
+ 	<|You will notice this project has a server.js file in it. Do not worry about that file, we are going to use it as a local development server. We will eventually create our own server. :D |>
+
+ Phase 2: Initializing our git repository and pushing our initial commit to GitHub.
+ 	<|The use of of the git tools and GitHub is going to seem a little overboard right now. You have to trust this will save you a great deal of headaches, provide some ease to your workflow, as well as provide a diary of sorts to how far you have come in this class.|>
+
+ 	- Initialize your git repository from the command line
+ 		* This is the easy part, but stay with me.
+ 	- Let's create a repo on GitHub so we can start "sending" our code to our remote.
+ 		* You will become familiar with this interface in due time.
+ 	- Add a remote to your local git repo
+ 	- Add the current files to your git repo stage using "commit" so we can prepare for our initial commit
+ 	- Let's push our initial commit
+ 		* After your first push, let's go look at the project on GitHub
+
+ Phase 3: Let's start working on our "home" page --> index.html
+ 	- BRAINSTORM: What does a portfolio website need?
+ 		* This does not to be comprehensive, but will provide some context.
+ 	- Let's add a title to our page.
+ 	- Let's create a header portion.
+ 		* This will contain our navigation as well as various other things that your creative mind may come up with.
+ 	- Let's add the main content
+ 	- Let's add the footer content.
+ 		* This is a great place to provide links to outside services such as your GitHub, BitBucket, etc.
+
+
+<| These exercises are to be completed by you with aid from me, documentation, and use of your Google Fu!|>
+<| Additionally, these will not be pretty pages, but instead just a layout.|>
+
+ Phase 4: Updating our contact page...
+ 	- The following list provides the things that you can work on, if you have no idea. However, we will be taking these out in order to make out portfolio official. This is just an exercise so these changes are not permanent. 
+ 	- The outline:
+ 		1. Create a proper HTML document
+ 		2. Make sure that you have the same navigation section that is on your homepage
+ 		3. Create a contact portion, wrapped in a div, of your address. At current time, you may want to use fake information.
+ 		4. Make sure that the footer from index.html is included in this page.
+ 		5. BRAINSTORM: Let's brainstorm other things that we can add...
+
+ 	- Before we begin on Phase 5... Now may be a good time for a git commit sense we have made a change to a feature and for now that is "complete"
+ 		* Use the tools that you have learned to stage the commit, create the commit with an appropriate message and push the changes.
+
+ Phase 5: Update our about page...
+ 	- Again the following is an exercise of using HTML to arrange a page's content.
+ 	- The outline:
+ 		1. Create a proper HTML document 
+ 		2. Have the same navigation portion from your other pages. 
+ 		3. Have the same footer portion from your other pages.
+ 			* Having consist user interface (UI) is soothing to our users.
+ 		4. Create a heading that displays your name (or a fake one for now)
+ 		5. Create a new section that has a short biography about you. This would be a good place to include the use of paragraph tags.
+ 			*Some ideas: hobbies, services, things from your resume, a tidbit to make you a person, etc.
+ 		6. Add a break after that section
+ 		7. Let's add a little more about you. Create a new section that satisfies the following requirements:
+ 			a. Has a portion that describes your favorite foods
+ 				* May be a good time to use an unordered list
+ 			b. Has a portion that describes your top 3 that you would like to visit
+ 				* Hmmm, an ordered list?
+ 		8. BRAINSTORM: What are some other things that we can add?
+
+ 	- Our about page is finished! For now... It feels like we should do something!
+
+ <|This has been a good start to creating an HTML based website. Though there is something missing...A little style. We can admit our pages are ugly. We will remedy that shortly...|>
+
+ <<More phases to come...>>
