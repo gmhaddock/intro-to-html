@@ -1,0 +1,19 @@
+body {
+    background-color: aliceblue;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+header li  {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header li:hover {
+    background-color: blueviolet
+}
